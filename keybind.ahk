@@ -100,6 +100,11 @@ IME_GET(WinTitle := "A") {
     return res
 }
 
+Space & t::Send "<"
+Space & g::Send ">"
+Space & vkBB::Send "{+}" 
+Space & vkBA::Send "*"    
+
 Space & 1:: IME_Send("！", "!") 
 Space & 2:: IME_Send("”", '"') 
 Space & 3:: IME_Send("＃", "#")
