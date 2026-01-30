@@ -52,12 +52,12 @@ Space & o::Send "+{vk31}"  ; Shift + / を送信
 
 ; --- 無変換(vk1D) との組み合わせでカッコを入力 ---
 ; ( ) 括弧
-Space & e:: IME_Send("（", "(")
-Space & d:: IME_Send("）", ")")
+Space & w:: IME_Send("（", "(")
+Space & s:: IME_Send("）", ")")
 
 ; { } 波括弧
-Space & w:: IME_Send("「", "{")
-Space & s:: IME_Send("」", "}")
+Space & e:: IME_Send("「", "{")
+Space & d:: IME_Send("」", "}")
 
 ; [ ] 角括弧
 Space & q:: IME_Send("［", "[")
