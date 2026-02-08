@@ -64,9 +64,9 @@ Space & q:: IME_Send("［", "[")
 Space & a:: IME_Send("］", "]")
 
 ; Space + Y で「/」を入力 (IME連動)
-Space & y:: IME_Send("／", "/")
+Space & y:: IME_Send("・", "/")
 
-Space & n:: IME_Send("＿", "_")
+Space & b:: IME_Send("＿", "_")
 
 
 ; [Vim風移動]
