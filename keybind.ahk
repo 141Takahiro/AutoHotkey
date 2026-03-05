@@ -2,6 +2,7 @@
 
 ; --- Caps Lock をEscに変更---
 vkF0::Esc
++CapsLock::Return
 
 ; --- 半角/全角キーの無効化（単体押しを無効にする） ---
 vkF3::Return
@@ -67,7 +68,7 @@ Space & a:: IME_Send("］", "]")
 Space & y:: IME_Send("・", "/")
 
 Space & b:: IME_Send("＿", "_")
-
+Space & n:: IME_Send("￥", "\")
 
 ; [Vim風移動]
 Space & h::Send "{Left}"
